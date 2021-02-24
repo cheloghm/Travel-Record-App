@@ -21,10 +21,13 @@ namespace TravelRecordApp
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation);
-            conn.CreateTable<Post>();
-            var posts = conn.Table<Post>().ToList();
-            conn.Close();
+
+            //Using statment helps to close connection to database as soon as the block of code is run
+            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+            {
+                conn.CreateTable<Post>();
+                var posts = conn.Table<Post>().ToList();
+            }
         }
     }
 }
