@@ -4,7 +4,8 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="TravelRecordApp.MapPage">
 
-    <maps:Map x:Name="locationsMap" 
+    <maps:Map x:Name="locationsMap"
+              IsShowingUser="True"
               HorizontalOptions="FillAndExpand"
               VerticalOptions="FillAndExpand" />
 </ContentPage>
