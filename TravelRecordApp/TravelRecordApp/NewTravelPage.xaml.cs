@@ -24,22 +24,21 @@ namespace TravelRecordApp
         }
 
         CancellationTokenSource cts;
+        Position p;
 
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-
             var request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
             cts = new CancellationTokenSource();
             var location = await Geolocation.GetLocationAsync(request, cts.Token);
-            loc = DependencyService.Get<ILocationUpdateService>();
-            Position p;
-            loc.LocationChanged += (object sender, ILocationEvenArgs args) =>
+
+
+            if (location != null)
             {
-                p = new Position(args.Latitude, args.Longitude);
-                var venues = VenueLogic.GetVenues(p.Latitude, p.Longitude);
-            };
-            //var venues = VenueLogic.GetVenues(p.Latitude, p.Longitude);
+                var venues = await VenueLogic.GetVenues(location.Latitude, location.Longitude);
+            }
+
         }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)

@@ -35,11 +35,11 @@ namespace TravelRecordApp.Model
         public string neighborhood { get; set; }
     }
 
-    public class Icon
-    {
-        public string prefix { get; set; }
-        public string suffix { get; set; }
-    }
+    //public class Icon
+    //{
+    //    public string prefix { get; set; }
+    //    public string suffix { get; set; }
+    //}
 
     public class Category
     {
