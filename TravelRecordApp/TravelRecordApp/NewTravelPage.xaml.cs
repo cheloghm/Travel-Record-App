@@ -37,25 +37,46 @@ namespace TravelRecordApp
             if (location != null)
             {
                 var venues = await VenueLogic.GetVenues(location.Latitude, location.Longitude);
+                venueListView.ItemsSource = venues;
             }
 
         }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
-            Post post = new Post()
+            try
             {
-                Experience = experienceEntry.Text
-            };
+                var selectedVenue = venueListView.SelectedItem as Venue;
+                var firstCategory = selectedVenue.categories.FirstOrDefault();
+                Post post = new Post()
+                {
+                    Experience = experienceEntry.Text,
+                    CategoryId = firstCategory.id,
+                    CategoryName = firstCategory.name,
+                    Address = selectedVenue.location.address,
+                    Distance = selectedVenue.location.distance,
+                    Latitude = selectedVenue.location.lat,
+                    Longitude = selectedVenue.location.lng,
+                    VenueName = selectedVenue.name
+                };
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+                using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+                {
+                    conn.CreateTable<Post>();
+                    int rows = conn.Insert(post);
+                    if (rows > 0)
+                        DisplayAlert("Success", "Experience Successfully Inserted", "Ok");
+                    else
+                        DisplayAlert("Failed", "Experience Not Inserted!", "Ok");
+                }
+            }
+            catch(NullReferenceException nre)
             {
-                conn.CreateTable<Post>();
-                int rows = conn.Insert(post);
-                if (rows > 0)
-                    DisplayAlert("Success", "Experience Successfully Inserted", "Ok");
-                else
-                    DisplayAlert("Failed", "Experience Not Inserted!", "Ok");
+
+            }
+            catch (Exception ex)
+            {
+
             }
             
         }

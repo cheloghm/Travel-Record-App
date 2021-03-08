@@ -6,6 +6,7 @@
 
     <maps:Map x:Name="locationsMap"
               IsShowingUser="True"
+              HasZoomEnabled="True"
               HorizontalOptions="FillAndExpand"
               VerticalOptions="FillAndExpand" />
 </ContentPage>
