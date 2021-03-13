@@ -49,6 +49,7 @@ namespace TravelRecordApp
             #endregion
             await App.MobileService.GetTable<Post>().UpdateAsync(selectedPost);
             await DisplayAlert("Success", "Experience Successfully Updated", "Ok");
+            await Navigation.PushAsync(new HomePage());
         }
 
         private async void deleteButton_Clicked(object sender, EventArgs e)
@@ -69,6 +70,7 @@ namespace TravelRecordApp
             #endregion
             await App.MobileService.GetTable<Post>().DeleteAsync(selectedPost);
             await DisplayAlert("Success", "Experience Successfully Deleted", "Ok");
+            await Navigation.PushAsync(new HomePage());
         }
     }
 }
