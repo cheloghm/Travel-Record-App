@@ -58,6 +58,7 @@ namespace TravelRecordApp
                     Latitude = selectedVenue.location.lat,
                     Longitude = selectedVenue.location.lng,
                     VenueName = selectedVenue.name
+
                 };
 
                 using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
@@ -65,7 +66,10 @@ namespace TravelRecordApp
                     conn.CreateTable<Post>();
                     int rows = conn.Insert(post);
                     if (rows > 0)
+                    { 
                         DisplayAlert("Success", "Experience Successfully Inserted", "Ok");
+                        Navigation.PushAsync(new HomePage());
+                    }
                     else
                         DisplayAlert("Failed", "Experience Not Inserted!", "Ok");
                 }

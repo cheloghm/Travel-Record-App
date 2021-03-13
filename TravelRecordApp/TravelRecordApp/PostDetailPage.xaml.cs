@@ -29,7 +29,10 @@ namespace TravelRecordApp
                 conn.CreateTable<Post>();
                 int rows = conn.Update(selectedPost);
                 if (rows > 0)
+                {
                     DisplayAlert("Success", "Experience Successfully Updated", "Ok");
+                    Navigation.PushAsync(new HomePage());
+                }
                 else
                     DisplayAlert("Failed", "Experience Not Updated!", "Ok");
             }
@@ -41,8 +44,11 @@ namespace TravelRecordApp
             {
                 conn.CreateTable<Post>();
                 int rows = conn.Delete(selectedPost);
-                if (rows > 0)
+                if (rows > 0) 
+                {
                     DisplayAlert("Success", "Experience Successfully Deleted", "Ok");
+                    Navigation.PushAsync(new HomePage());
+                }
                 else
                     DisplayAlert("Failed", "Experience Not Deleted!", "Ok");
             }

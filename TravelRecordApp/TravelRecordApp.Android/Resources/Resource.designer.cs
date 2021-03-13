@@ -25,6 +25,192 @@ namespace TravelRecordApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.alpha = global::TravelRecordApp.Droid.Resource.Attribute.alpha;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.coordinatorLayoutStyle = global::TravelRecordApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.font = global::TravelRecordApp.Droid.Resource.Attribute.font;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderAuthority = global::TravelRecordApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderCerts = global::TravelRecordApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderFetchStrategy = global::TravelRecordApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderFetchTimeout = global::TravelRecordApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderPackage = global::TravelRecordApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderQuery = global::TravelRecordApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontStyle = global::TravelRecordApp.Droid.Resource.Attribute.fontStyle;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontVariationSettings = global::TravelRecordApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontWeight = global::TravelRecordApp.Droid.Resource.Attribute.fontWeight;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.keylines = global::TravelRecordApp.Droid.Resource.Attribute.keylines;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_anchor = global::TravelRecordApp.Droid.Resource.Attribute.layout_anchor;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_anchorGravity = global::TravelRecordApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_behavior = global::TravelRecordApp.Droid.Resource.Attribute.layout_behavior;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_dodgeInsetEdges = global::TravelRecordApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_insetEdge = global::TravelRecordApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_keyline = global::TravelRecordApp.Droid.Resource.Attribute.layout_keyline;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.statusBarBackground = global::TravelRecordApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.ttcIndex = global::TravelRecordApp.Droid.Resource.Attribute.ttcIndex;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.browser_actions_bg_grey = global::TravelRecordApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.browser_actions_divider_color = global::TravelRecordApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.browser_actions_text_color = global::TravelRecordApp.Droid.Resource.Color.browser_actions_text_color;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.browser_actions_title_color = global::TravelRecordApp.Droid.Resource.Color.browser_actions_title_color;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.notification_action_color_filter = global::TravelRecordApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.notification_icon_bg_color = global::TravelRecordApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.ripple_material_light = global::TravelRecordApp.Droid.Resource.Color.ripple_material_light;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.secondary_text_default_material_light = global::TravelRecordApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.browser_actions_context_menu_max_width = global::TravelRecordApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.browser_actions_context_menu_min_padding = global::TravelRecordApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_button_inset_horizontal_material = global::TravelRecordApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_button_inset_vertical_material = global::TravelRecordApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_button_padding_horizontal_material = global::TravelRecordApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_button_padding_vertical_material = global::TravelRecordApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_control_corner_material = global::TravelRecordApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_notification_large_icon_max_height = global::TravelRecordApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_notification_large_icon_max_width = global::TravelRecordApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_action_icon_size = global::TravelRecordApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_action_text_size = global::TravelRecordApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_big_circle_margin = global::TravelRecordApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_content_margin_start = global::TravelRecordApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_large_icon_height = global::TravelRecordApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_large_icon_width = global::TravelRecordApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_main_column_padding_top = global::TravelRecordApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_media_narrow_margin = global::TravelRecordApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_right_icon_size = global::TravelRecordApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_right_side_padding_top = global::TravelRecordApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_small_icon_background_padding = global::TravelRecordApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_small_icon_size_as_large = global::TravelRecordApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_subtext_size = global::TravelRecordApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_top_pad = global::TravelRecordApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_top_pad_large_text = global::TravelRecordApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_action_background = global::TravelRecordApp.Droid.Resource.Drawable.notification_action_background;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg = global::TravelRecordApp.Droid.Resource.Drawable.notification_bg;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_low = global::TravelRecordApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_low_normal = global::TravelRecordApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_low_pressed = global::TravelRecordApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_normal = global::TravelRecordApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_normal_pressed = global::TravelRecordApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_icon_background = global::TravelRecordApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_template_icon_bg = global::TravelRecordApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_template_icon_low_bg = global::TravelRecordApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_tile_bg = global::TravelRecordApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notify_panel_notification_icon_bg = global::TravelRecordApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.actions = global::TravelRecordApp.Droid.Resource.Id.actions;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.action_container = global::TravelRecordApp.Droid.Resource.Id.action_container;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.action_divider = global::TravelRecordApp.Droid.Resource.Id.action_divider;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.action_image = global::TravelRecordApp.Droid.Resource.Id.action_image;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.action_text = global::TravelRecordApp.Droid.Resource.Id.action_text;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.all = global::TravelRecordApp.Droid.Resource.Id.all;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.async = global::TravelRecordApp.Droid.Resource.Id.async;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.blocking = global::TravelRecordApp.Droid.Resource.Id.blocking;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.bottom = global::TravelRecordApp.Droid.Resource.Id.bottom;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_header_text = global::TravelRecordApp.Droid.Resource.Id.browser_actions_header_text;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_menu_items = global::TravelRecordApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_menu_item_icon = global::TravelRecordApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_menu_item_text = global::TravelRecordApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_menu_view = global::TravelRecordApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.center = global::TravelRecordApp.Droid.Resource.Id.center;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.center_horizontal = global::TravelRecordApp.Droid.Resource.Id.center_horizontal;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.center_vertical = global::TravelRecordApp.Droid.Resource.Id.center_vertical;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.chronometer = global::TravelRecordApp.Droid.Resource.Id.chronometer;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.clip_horizontal = global::TravelRecordApp.Droid.Resource.Id.clip_horizontal;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.clip_vertical = global::TravelRecordApp.Droid.Resource.Id.clip_vertical;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.end = global::TravelRecordApp.Droid.Resource.Id.end;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.fill = global::TravelRecordApp.Droid.Resource.Id.fill;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.fill_horizontal = global::TravelRecordApp.Droid.Resource.Id.fill_horizontal;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.fill_vertical = global::TravelRecordApp.Droid.Resource.Id.fill_vertical;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.forever = global::TravelRecordApp.Droid.Resource.Id.forever;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.icon = global::TravelRecordApp.Droid.Resource.Id.icon;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.icon_group = global::TravelRecordApp.Droid.Resource.Id.icon_group;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.info = global::TravelRecordApp.Droid.Resource.Id.info;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.italic = global::TravelRecordApp.Droid.Resource.Id.italic;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.left = global::TravelRecordApp.Droid.Resource.Id.left;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.line1 = global::TravelRecordApp.Droid.Resource.Id.line1;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.line3 = global::TravelRecordApp.Droid.Resource.Id.line3;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.none = global::TravelRecordApp.Droid.Resource.Id.none;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.normal = global::TravelRecordApp.Droid.Resource.Id.normal;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.notification_background = global::TravelRecordApp.Droid.Resource.Id.notification_background;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.notification_main_column = global::TravelRecordApp.Droid.Resource.Id.notification_main_column;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.notification_main_column_container = global::TravelRecordApp.Droid.Resource.Id.notification_main_column_container;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.right = global::TravelRecordApp.Droid.Resource.Id.right;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.right_icon = global::TravelRecordApp.Droid.Resource.Id.right_icon;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.right_side = global::TravelRecordApp.Droid.Resource.Id.right_side;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.start = global::TravelRecordApp.Droid.Resource.Id.start;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.tag_transition_group = global::TravelRecordApp.Droid.Resource.Id.tag_transition_group;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.tag_unhandled_key_event_manager = global::TravelRecordApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.tag_unhandled_key_listeners = global::TravelRecordApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.text = global::TravelRecordApp.Droid.Resource.Id.text;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.text2 = global::TravelRecordApp.Droid.Resource.Id.text2;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.time = global::TravelRecordApp.Droid.Resource.Id.time;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.title = global::TravelRecordApp.Droid.Resource.Id.title;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.top = global::TravelRecordApp.Droid.Resource.Id.top;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Integer.status_bar_notification_info_maxnum = global::TravelRecordApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.browser_actions_context_menu_page = global::TravelRecordApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.browser_actions_context_menu_row = global::TravelRecordApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_action = global::TravelRecordApp.Droid.Resource.Layout.notification_action;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_action_tombstone = global::TravelRecordApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_template_custom_big = global::TravelRecordApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_template_icon_group = global::TravelRecordApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_template_part_chronometer = global::TravelRecordApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_template_part_time = global::TravelRecordApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.String.ApplicationName = global::TravelRecordApp.Droid.Resource.String.ApplicationName;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.String.Hello = global::TravelRecordApp.Droid.Resource.String.Hello;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.String.status_bar_notification_info_overflow = global::TravelRecordApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification = global::TravelRecordApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification_Info = global::TravelRecordApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::TravelRecordApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification_Time = global::TravelRecordApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification_Title = global::TravelRecordApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.Widget_Compat_NotificationActionContainer = global::TravelRecordApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.Widget_Compat_NotificationActionText = global::TravelRecordApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.Widget_Support_CoordinatorLayout = global::TravelRecordApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.ColorStateListItem = global::TravelRecordApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.ColorStateListItem_alpha = global::TravelRecordApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.ColorStateListItem_android_alpha = global::TravelRecordApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.ColorStateListItem_android_color = global::TravelRecordApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_keylines = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::TravelRecordApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily = global::TravelRecordApp.Droid.Resource.Styleable.FontFamily;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_font = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_fontStyle = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_fontWeight = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_font = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_fontStyle = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_fontWeight = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_ttcIndex = global::TravelRecordApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderAuthority = global::TravelRecordApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderCerts = global::TravelRecordApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::TravelRecordApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::TravelRecordApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderPackage = global::TravelRecordApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderQuery = global::TravelRecordApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColorItem = global::TravelRecordApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColorItem_android_color = global::TravelRecordApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColorItem_android_offset = global::TravelRecordApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_centerColor = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_centerX = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_centerY = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_endColor = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_endX = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_endY = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_gradientRadius = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_startColor = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_startX = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_startY = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_tileMode = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_type = global::TravelRecordApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Microsoft.WindowsAzure.MobileServices.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::TravelRecordApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::PCLCrypto.Resource.String.ApplicationName = global::TravelRecordApp.Droid.Resource.String.ApplicationName;
+			global::PCLCrypto.Resource.String.Hello = global::TravelRecordApp.Droid.Resource.String.Hello;
 			global::Plugin.Permissions.Resource.Attribute.alpha = global::TravelRecordApp.Droid.Resource.Attribute.alpha;
 			global::Plugin.Permissions.Resource.Attribute.coordinatorLayoutStyle = global::TravelRecordApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Plugin.Permissions.Resource.Attribute.font = global::TravelRecordApp.Droid.Resource.Attribute.font;
@@ -15726,223 +15912,244 @@ namespace TravelRecordApp.Droid
 			public const int abc_vector_test = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int avd_hide_password = 2131165276;
+			public const int add = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int avd_show_password = 2131165277;
+			public const int avd_hide_password = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_checkbox_checked_mtrl = 2131165278;
+			public const int avd_show_password = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165279;
+			public const int btn_checkbox_checked_mtrl = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int btn_checkbox_unchecked_mtrl = 2131165280;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165281;
+			public const int btn_checkbox_unchecked_mtrl = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int btn_radio_off_mtrl = 2131165282;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165283;
+			public const int btn_radio_off_mtrl = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int btn_radio_on_mtrl = 2131165284;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165285;
+			public const int btn_radio_on_mtrl = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int common_full_open_on_phone = 2131165286;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int common_google_signin_btn_icon_dark = 2131165287;
+			public const int common_full_open_on_phone = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int common_google_signin_btn_icon_dark_focused = 2131165288;
+			public const int common_google_signin_btn_icon_dark = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int common_google_signin_btn_icon_dark_normal = 2131165289;
+			public const int common_google_signin_btn_icon_dark_focused = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int common_google_signin_btn_icon_dark_normal_background = 2131165290;
+			public const int common_google_signin_btn_icon_dark_normal = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int common_google_signin_btn_icon_disabled = 2131165291;
+			public const int common_google_signin_btn_icon_dark_normal_background = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int common_google_signin_btn_icon_light = 2131165292;
+			public const int common_google_signin_btn_icon_disabled = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int common_google_signin_btn_icon_light_focused = 2131165293;
+			public const int common_google_signin_btn_icon_light = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int common_google_signin_btn_icon_light_normal = 2131165294;
+			public const int common_google_signin_btn_icon_light_focused = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int common_google_signin_btn_icon_light_normal_background = 2131165295;
+			public const int common_google_signin_btn_icon_light_normal = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int common_google_signin_btn_text_dark = 2131165296;
+			public const int common_google_signin_btn_icon_light_normal_background = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int common_google_signin_btn_text_dark_focused = 2131165297;
+			public const int common_google_signin_btn_text_dark = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int common_google_signin_btn_text_dark_normal = 2131165298;
+			public const int common_google_signin_btn_text_dark_focused = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int common_google_signin_btn_text_dark_normal_background = 2131165299;
+			public const int common_google_signin_btn_text_dark_normal = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int common_google_signin_btn_text_disabled = 2131165300;
+			public const int common_google_signin_btn_text_dark_normal_background = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int common_google_signin_btn_text_light = 2131165301;
+			public const int common_google_signin_btn_text_disabled = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int common_google_signin_btn_text_light_focused = 2131165302;
+			public const int common_google_signin_btn_text_light = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int common_google_signin_btn_text_light_normal = 2131165303;
+			public const int common_google_signin_btn_text_light_focused = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int common_google_signin_btn_text_light_normal_background = 2131165304;
+			public const int common_google_signin_btn_text_light_normal = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int design_bottom_navigation_item_background = 2131165305;
+			public const int common_google_signin_btn_text_light_normal_background = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int design_fab_background = 2131165306;
+			public const int design_bottom_navigation_item_background = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int design_ic_visibility = 2131165307;
+			public const int design_fab_background = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int design_ic_visibility_off = 2131165308;
+			public const int design_ic_visibility = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int design_password_eye = 2131165309;
+			public const int design_ic_visibility_off = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int design_snackbar_background = 2131165310;
+			public const int design_password_eye = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int googleg_disabled_color_18 = 2131165311;
+			public const int design_snackbar_background = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int googleg_standard_color_18 = 2131165312;
+			public const int googleg_disabled_color_18 = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int ic_mtrl_checked_circle = 2131165313;
+			public const int googleg_standard_color_18 = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int ic_mtrl_chip_checked_black = 2131165314;
-			
-			// aapt resource value: 0x7F070083
-			public const int ic_mtrl_chip_checked_circle = 2131165315;
-			
-			// aapt resource value: 0x7F070084
-			public const int ic_mtrl_chip_close_circle = 2131165316;
-			
-			// aapt resource value: 0x7F070085
-			public const int material_ic_calendar_black_24dp = 2131165317;
-			
-			// aapt resource value: 0x7F070086
-			public const int material_ic_clear_black_24dp = 2131165318;
+			public const int home = 2131165314;
 			
 			// aapt resource value: 0x7F070087
-			public const int material_ic_edit_black_24dp = 2131165319;
+			public const int icon = 2131165319;
+			
+			// aapt resource value: 0x7F070083
+			public const int ic_mtrl_checked_circle = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int ic_mtrl_chip_checked_black = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int ic_mtrl_chip_checked_circle = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int ic_mtrl_chip_close_circle = 2131165318;
 			
 			// aapt resource value: 0x7F070088
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165320;
+			public const int launcher_foreground = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165321;
+			public const int map = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165322;
+			public const int material_ic_calendar_black_24dp = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165323;
+			public const int material_ic_clear_black_24dp = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int mtrl_dialog_background = 2131165324;
+			public const int material_ic_edit_black_24dp = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int mtrl_dropdown_arrow = 2131165325;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int mtrl_ic_arrow_drop_down = 2131165326;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int mtrl_ic_arrow_drop_up = 2131165327;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int mtrl_ic_cancel = 2131165328;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int mtrl_ic_error = 2131165329;
+			public const int mtrl_dialog_background = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int mtrl_popupmenu_background = 2131165330;
+			public const int mtrl_dropdown_arrow = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int mtrl_popupmenu_background_dark = 2131165331;
+			public const int mtrl_ic_arrow_drop_down = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int mtrl_tabs_default_indicator = 2131165332;
+			public const int mtrl_ic_arrow_drop_up = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int navigation_empty_icon = 2131165333;
+			public const int mtrl_ic_cancel = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int notification_action_background = 2131165334;
+			public const int mtrl_ic_error = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int notification_bg = 2131165335;
+			public const int mtrl_popupmenu_background = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int notification_bg_low = 2131165336;
+			public const int mtrl_popupmenu_background_dark = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int notification_bg_low_normal = 2131165337;
+			public const int mtrl_tabs_default_indicator = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int notification_bg_low_pressed = 2131165338;
+			public const int navigation_empty_icon = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int notification_bg_normal = 2131165339;
+			public const int notification_action_background = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int notification_bg_normal_pressed = 2131165340;
+			public const int notification_bg = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int notification_icon_background = 2131165341;
+			public const int notification_bg_low = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int notification_template_icon_bg = 2131165342;
+			public const int notification_bg_low_normal = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int notification_template_icon_low_bg = 2131165343;
+			public const int notification_bg_low_pressed = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int notification_tile_bg = 2131165344;
+			public const int notification_bg_normal = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int notify_panel_notification_icon_bg = 2131165345;
+			public const int notification_bg_normal_pressed = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int test_custom_background = 2131165346;
+			public const int notification_icon_background = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int tooltip_frame_dark = 2131165347;
+			public const int notification_template_icon_bg = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int tooltip_frame_light = 2131165348;
+			public const int notification_template_icon_low_bg = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int notification_tile_bg = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int notify_panel_notification_icon_bg = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int profile = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int save = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int test_custom_background = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int tooltip_frame_dark = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int tooltip_frame_light = 2131165355;
 			
 			static Drawable()
 			{
@@ -17435,13 +17642,28 @@ namespace TravelRecordApp.Droid
 		{
 			
 			// aapt resource value: 0x7F0C0000
-			public const int icon = 2131492864;
+			public const int add = 2131492864;
 			
 			// aapt resource value: 0x7F0C0001
-			public const int icon_round = 2131492865;
+			public const int home = 2131492865;
 			
 			// aapt resource value: 0x7F0C0002
-			public const int launcher_foreground = 2131492866;
+			public const int icon = 2131492866;
+			
+			// aapt resource value: 0x7F0C0003
+			public const int icon_round = 2131492867;
+			
+			// aapt resource value: 0x7F0C0004
+			public const int launcher_foreground = 2131492868;
+			
+			// aapt resource value: 0x7F0C0005
+			public const int map = 2131492869;
+			
+			// aapt resource value: 0x7F0C0006
+			public const int profile = 2131492870;
+			
+			// aapt resource value: 0x7F0C0007
+			public const int save = 2131492871;
 			
 			static Mipmap()
 			{
@@ -17472,329 +17694,335 @@ namespace TravelRecordApp.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0E0000
-			public const int abc_action_bar_home_description = 2131623936;
-			
-			// aapt resource value: 0x7F0E0001
-			public const int abc_action_bar_up_description = 2131623937;
-			
 			// aapt resource value: 0x7F0E0002
-			public const int abc_action_menu_overflow_description = 2131623938;
+			public const int abc_action_bar_home_description = 2131623938;
 			
 			// aapt resource value: 0x7F0E0003
-			public const int abc_action_mode_done = 2131623939;
-			
-			// aapt resource value: 0x7F0E0005
-			public const int abc_activitychooserview_choose_application = 2131623941;
+			public const int abc_action_bar_up_description = 2131623939;
 			
 			// aapt resource value: 0x7F0E0004
-			public const int abc_activity_chooser_view_see_all = 2131623940;
+			public const int abc_action_menu_overflow_description = 2131623940;
 			
-			// aapt resource value: 0x7F0E0006
-			public const int abc_capital_off = 2131623942;
+			// aapt resource value: 0x7F0E0005
+			public const int abc_action_mode_done = 2131623941;
 			
 			// aapt resource value: 0x7F0E0007
-			public const int abc_capital_on = 2131623943;
+			public const int abc_activitychooserview_choose_application = 2131623943;
+			
+			// aapt resource value: 0x7F0E0006
+			public const int abc_activity_chooser_view_see_all = 2131623942;
 			
 			// aapt resource value: 0x7F0E0008
-			public const int abc_menu_alt_shortcut_label = 2131623944;
+			public const int abc_capital_off = 2131623944;
 			
 			// aapt resource value: 0x7F0E0009
-			public const int abc_menu_ctrl_shortcut_label = 2131623945;
+			public const int abc_capital_on = 2131623945;
 			
 			// aapt resource value: 0x7F0E000A
-			public const int abc_menu_delete_shortcut_label = 2131623946;
+			public const int abc_menu_alt_shortcut_label = 2131623946;
 			
 			// aapt resource value: 0x7F0E000B
-			public const int abc_menu_enter_shortcut_label = 2131623947;
+			public const int abc_menu_ctrl_shortcut_label = 2131623947;
 			
 			// aapt resource value: 0x7F0E000C
-			public const int abc_menu_function_shortcut_label = 2131623948;
+			public const int abc_menu_delete_shortcut_label = 2131623948;
 			
 			// aapt resource value: 0x7F0E000D
-			public const int abc_menu_meta_shortcut_label = 2131623949;
+			public const int abc_menu_enter_shortcut_label = 2131623949;
 			
 			// aapt resource value: 0x7F0E000E
-			public const int abc_menu_shift_shortcut_label = 2131623950;
+			public const int abc_menu_function_shortcut_label = 2131623950;
 			
 			// aapt resource value: 0x7F0E000F
-			public const int abc_menu_space_shortcut_label = 2131623951;
+			public const int abc_menu_meta_shortcut_label = 2131623951;
 			
 			// aapt resource value: 0x7F0E0010
-			public const int abc_menu_sym_shortcut_label = 2131623952;
+			public const int abc_menu_shift_shortcut_label = 2131623952;
 			
 			// aapt resource value: 0x7F0E0011
-			public const int abc_prepend_shortcut_label = 2131623953;
-			
-			// aapt resource value: 0x7F0E0013
-			public const int abc_searchview_description_clear = 2131623955;
-			
-			// aapt resource value: 0x7F0E0014
-			public const int abc_searchview_description_query = 2131623956;
-			
-			// aapt resource value: 0x7F0E0015
-			public const int abc_searchview_description_search = 2131623957;
-			
-			// aapt resource value: 0x7F0E0016
-			public const int abc_searchview_description_submit = 2131623958;
-			
-			// aapt resource value: 0x7F0E0017
-			public const int abc_searchview_description_voice = 2131623959;
+			public const int abc_menu_space_shortcut_label = 2131623953;
 			
 			// aapt resource value: 0x7F0E0012
-			public const int abc_search_hint = 2131623954;
+			public const int abc_menu_sym_shortcut_label = 2131623954;
+			
+			// aapt resource value: 0x7F0E0013
+			public const int abc_prepend_shortcut_label = 2131623955;
+			
+			// aapt resource value: 0x7F0E0015
+			public const int abc_searchview_description_clear = 2131623957;
+			
+			// aapt resource value: 0x7F0E0016
+			public const int abc_searchview_description_query = 2131623958;
+			
+			// aapt resource value: 0x7F0E0017
+			public const int abc_searchview_description_search = 2131623959;
 			
 			// aapt resource value: 0x7F0E0018
-			public const int abc_shareactionprovider_share_with = 2131623960;
+			public const int abc_searchview_description_submit = 2131623960;
 			
 			// aapt resource value: 0x7F0E0019
-			public const int abc_shareactionprovider_share_with_application = 2131623961;
+			public const int abc_searchview_description_voice = 2131623961;
+			
+			// aapt resource value: 0x7F0E0014
+			public const int abc_search_hint = 2131623956;
 			
 			// aapt resource value: 0x7F0E001A
-			public const int abc_toolbar_collapse_description = 2131623962;
+			public const int abc_shareactionprovider_share_with = 2131623962;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
+			public const int abc_shareactionprovider_share_with_application = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int abc_toolbar_collapse_description = 2131623964;
 			
 			// aapt resource value: 0x7F0E001D
-			public const int character_counter_content_description = 2131623965;
+			public const int appbar_scrolling_view_behavior = 2131623965;
+			
+			// aapt resource value: 0x7F0E0000
+			public const int ApplicationName = 2131623936;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_overflowed_content_description = 2131623966;
+			public const int bottom_sheet_behavior = 2131623966;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_pattern = 2131623967;
+			public const int character_counter_content_description = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int chip_text = 2131623968;
+			public const int character_counter_overflowed_content_description = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int clear_text_end_icon_content_description = 2131623969;
+			public const int character_counter_pattern = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int common_google_play_services_enable_button = 2131623970;
+			public const int chip_text = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int common_google_play_services_enable_text = 2131623971;
+			public const int clear_text_end_icon_content_description = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int common_google_play_services_enable_title = 2131623972;
+			public const int common_google_play_services_enable_button = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int common_google_play_services_install_button = 2131623973;
+			public const int common_google_play_services_enable_text = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int common_google_play_services_install_text = 2131623974;
+			public const int common_google_play_services_enable_title = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int common_google_play_services_install_title = 2131623975;
+			public const int common_google_play_services_install_button = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int common_google_play_services_notification_channel_name = 2131623976;
+			public const int common_google_play_services_install_text = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int common_google_play_services_notification_ticker = 2131623977;
+			public const int common_google_play_services_install_title = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int common_google_play_services_unknown_issue = 2131623978;
+			public const int common_google_play_services_notification_channel_name = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int common_google_play_services_unsupported_text = 2131623979;
+			public const int common_google_play_services_notification_ticker = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int common_google_play_services_update_button = 2131623980;
+			public const int common_google_play_services_unknown_issue = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int common_google_play_services_update_text = 2131623981;
+			public const int common_google_play_services_unsupported_text = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int common_google_play_services_update_title = 2131623982;
+			public const int common_google_play_services_update_button = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int common_google_play_services_updating_text = 2131623983;
+			public const int common_google_play_services_update_text = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int common_google_play_services_wear_update_text = 2131623984;
+			public const int common_google_play_services_update_title = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int common_open_on_phone = 2131623985;
+			public const int common_google_play_services_updating_text = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int common_signin_button_text = 2131623986;
+			public const int common_google_play_services_wear_update_text = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int common_signin_button_text_long = 2131623987;
+			public const int common_open_on_phone = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int copy_toast_msg = 2131623988;
+			public const int common_signin_button_text = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int error_icon_content_description = 2131623989;
+			public const int common_signin_button_text_long = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int exposed_dropdown_menu_content_description = 2131623990;
+			public const int copy_toast_msg = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int fab_transformation_scrim_behavior = 2131623991;
+			public const int error_icon_content_description = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int fab_transformation_sheet_behavior = 2131623992;
+			public const int exposed_dropdown_menu_content_description = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int fallback_menu_item_copy_link = 2131623993;
+			public const int fab_transformation_scrim_behavior = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int fallback_menu_item_open_in_browser = 2131623994;
+			public const int fab_transformation_sheet_behavior = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int fallback_menu_item_share_link = 2131623995;
+			public const int fallback_menu_item_copy_link = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int hide_bottom_view_on_scroll_behavior = 2131623996;
+			public const int fallback_menu_item_open_in_browser = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int icon_content_description = 2131623997;
+			public const int fallback_menu_item_share_link = 2131623997;
+			
+			// aapt resource value: 0x7F0E0001
+			public const int Hello = 2131623937;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int item_view_role_description = 2131623998;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_slider_range_end = 2131623999;
+			public const int icon_content_description = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_slider_range_start = 2131624000;
+			public const int item_view_role_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int mtrl_badge_numberless_content_description = 2131624001;
+			public const int material_slider_range_end = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int mtrl_chip_close_icon_content_description = 2131624002;
+			public const int material_slider_range_start = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624003;
+			public const int mtrl_badge_numberless_content_description = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624004;
+			public const int mtrl_chip_close_icon_content_description = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_picker_a11y_next_month = 2131624005;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_picker_a11y_prev_month = 2131624006;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_picker_announce_current_selection = 2131624007;
+			public const int mtrl_picker_a11y_next_month = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_cancel = 2131624008;
+			public const int mtrl_picker_a11y_prev_month = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_confirm = 2131624009;
+			public const int mtrl_picker_announce_current_selection = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_date_header_selected = 2131624010;
+			public const int mtrl_picker_cancel = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_date_header_title = 2131624011;
+			public const int mtrl_picker_confirm = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_date_header_unselected = 2131624012;
+			public const int mtrl_picker_date_header_selected = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_day_of_week_column_header = 2131624013;
+			public const int mtrl_picker_date_header_title = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_invalid_format = 2131624014;
+			public const int mtrl_picker_date_header_unselected = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_invalid_format_example = 2131624015;
+			public const int mtrl_picker_day_of_week_column_header = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_invalid_format_use = 2131624016;
+			public const int mtrl_picker_invalid_format = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_invalid_range = 2131624017;
+			public const int mtrl_picker_invalid_format_example = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_navigate_to_year_description = 2131624018;
+			public const int mtrl_picker_invalid_format_use = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_out_of_range = 2131624019;
+			public const int mtrl_picker_invalid_range = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_range_header_only_end_selected = 2131624020;
+			public const int mtrl_picker_navigate_to_year_description = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_range_header_only_start_selected = 2131624021;
+			public const int mtrl_picker_out_of_range = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_range_header_selected = 2131624022;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_range_header_title = 2131624023;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_unselected = 2131624024;
+			public const int mtrl_picker_range_header_selected = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_save = 2131624025;
+			public const int mtrl_picker_range_header_title = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_text_input_date_hint = 2131624026;
+			public const int mtrl_picker_range_header_unselected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624027;
+			public const int mtrl_picker_save = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624028;
+			public const int mtrl_picker_text_input_date_hint = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_text_input_day_abbr = 2131624029;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_month_abbr = 2131624030;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_year_abbr = 2131624031;
+			public const int mtrl_picker_text_input_day_abbr = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624032;
+			public const int mtrl_picker_text_input_month_abbr = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_toggle_to_day_selection = 2131624033;
+			public const int mtrl_picker_text_input_year_abbr = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624034;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_toggle_to_year_selection = 2131624035;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int overflow_tab_title = 2131624036;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int password_toggle_content_description = 2131624037;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int path_password_eye = 2131624038;
+			public const int overflow_tab_title = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int path_password_eye_mask_strike_through = 2131624039;
+			public const int password_toggle_content_description = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int path_password_eye_mask_visible = 2131624040;
+			public const int path_password_eye = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int path_password_strike_through = 2131624041;
+			public const int path_password_eye_mask_strike_through = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int search_menu_title = 2131624042;
+			public const int path_password_eye_mask_visible = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int status_bar_notification_info_overflow = 2131624043;
+			public const int path_password_strike_through = 2131624043;
+			
+			// aapt resource value: 0x7F0E006C
+			public const int search_menu_title = 2131624044;
+			
+			// aapt resource value: 0x7F0E006D
+			public const int status_bar_notification_info_overflow = 2131624045;
 			
 			static String()
 			{

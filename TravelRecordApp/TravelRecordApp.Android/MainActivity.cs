@@ -12,6 +12,7 @@ using Xamarin.Essentials;
 using Android;
 using Android.Content;
 using Android.Gms.Location;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace TravelRecordApp.Droid
 {
@@ -39,6 +40,7 @@ namespace TravelRecordApp.Droid
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             Xamarin.FormsMaps.Init(this, savedInstanceState);
+            CurrentPlatform.Init();
 
            // Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, savedInstanceState);
 
