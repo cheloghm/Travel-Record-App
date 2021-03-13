@@ -14,44 +14,61 @@ namespace TravelRecordApp
     public partial class PostDetailsPage : ContentPage
     {
         Post selectedPost;
+        public PostDetailsPage()
+        {
+
+        }
         public PostDetailsPage(Post selectedPost)
         {
             InitializeComponent();
             this.selectedPost = selectedPost;
             experienceEntry.Text = selectedPost.Experience;
+            venueLabel.Text = selectedPost.VenueName;
+            categoryLabel.Text = selectedPost.CategoryName;
+            addressLabel.Text = selectedPost.Address;
+            coordinatesLabel.Text = $"{selectedPost.Latitude}, {selectedPost.Longitude}";
+            distanceLabel.Text = $"{selectedPost.Distance} m";
         }
 
-        private void updateButton_Clicked(object sender, EventArgs e)
+        private async void updateButton_Clicked(object sender, EventArgs e)
         {
             selectedPost.Experience = experienceEntry.Text;
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
-            {
-                conn.CreateTable<Post>();
-                int rows = conn.Update(selectedPost);
-                if (rows > 0)
-                {
-                    DisplayAlert("Success", "Experience Successfully Updated", "Ok");
-                    Navigation.PushAsync(new HomePage());
-                }
-                else
-                    DisplayAlert("Failed", "Experience Not Updated!", "Ok");
-            }
+            #region Code for updating in sqlite local db
+            //using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+            //{
+            //    conn.CreateTable<Post>();
+            //    int rows = conn.Update(selectedPost);
+            //    if (rows > 0)
+            //    {
+            //        DisplayAlert("Success", "Experience Successfully Updated", "Ok");
+            //        Navigation.PushAsync(new HomePage());
+            //    }
+            //    else
+            //        DisplayAlert("Failed", "Experience Not Updated!", "Ok");
+            //}
+            #endregion
+            await App.MobileService.GetTable<Post>().UpdateAsync(selectedPost);
+            await DisplayAlert("Success", "Experience Successfully Updated", "Ok");
         }
 
-        private void deleteButton_Clicked(object sender, EventArgs e)
+        private async void deleteButton_Clicked(object sender, EventArgs e)
         {
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
-            {
-                conn.CreateTable<Post>();
-                int rows = conn.Delete(selectedPost);
-                if (rows > 0) 
-                {
-                    DisplayAlert("Success", "Experience Successfully Deleted", "Ok");
-                    Navigation.PushAsync(new HomePage());
-                }
-                else
-                    DisplayAlert("Failed", "Experience Not Deleted!", "Ok");
-            }
+            #region Codefor deleting in sqlite local db
+            //using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+            //{
+            //    conn.CreateTable<Post>();
+            //    int rows = conn.Delete(selectedPost);
+            //    if (rows > 0) 
+            //    {
+            //        DisplayAlert("Success", "Experience Successfully Deleted", "Ok");
+            //        Navigation.PushAsync(new HomePage());
+            //    }
+            //    else
+            //        DisplayAlert("Failed", "Experience Not Deleted!", "Ok");
+            //}
+            #endregion
+            await App.MobileService.GetTable<Post>().DeleteAsync(selectedPost);
+            await DisplayAlert("Success", "Experience Successfully Deleted", "Ok");
         }
     }
 }

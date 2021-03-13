@@ -5,7 +5,24 @@
 
     <StackLayout>
         <Entry x:Name="experienceEntry" />
+        <Label x:Name="venueLabel"
+               Margin="0,30,0,0"
+               FontAttributes="Bold"
+               FontSize="22"
+               Text="Venue label" />
+        <Label x:Name="categoryLabel"
+               Text="Category label"
+               TextColor="{StaticResource blueColor}"/>
+        <Label x:Name="addressLabel"
+               FontSize="15"
+               Text="Address label" />
+        <Label x:Name="coordinatesLabel"
+               FontSize="15"
+               Text="Coordinates label" />
+        <Label x:Name="distanceLabel"
+               FontSize="15"
+               Text="Distance label" />
         <Button Text="Update" x:Name="updateButton" Clicked="updateButton_Clicked" />
-        <Button Text="Delete" x:Name="deleteButton" Clicked="deleteButton_Clicked" />
+        <Button Text="Delete" x:Name="deleteButton" Clicked="deleteButton_Clicked" TextColor="Red"/>
     </StackLayout>
 </ContentPage>

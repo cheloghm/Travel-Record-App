@@ -7,8 +7,10 @@ namespace TravelRecordApp.Model
 {
     public class Post
     {
+        //[PrimaryKey, AutoIncrement]
+        //public int Id { get; set; } // Int  type for sqlite
         [PrimaryKey, AutoIncrement]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [MaxLength(500)]
         public string Experience { get; set; }

@@ -36,6 +36,7 @@ namespace TravelRecordApp
 
                 if (user != null)
                 {
+                    App.user = user;
                     if (user.Password == passwordEntry.Text)
                         await Navigation.PushAsync(new HomePage());
                     else

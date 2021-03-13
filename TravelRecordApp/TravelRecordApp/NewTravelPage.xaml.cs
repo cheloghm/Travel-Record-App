@@ -42,7 +42,7 @@ namespace TravelRecordApp
 
         }
 
-        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        private async void ToolbarItem_Clicked(object sender, EventArgs e)
         {
             try
             {
@@ -57,30 +57,35 @@ namespace TravelRecordApp
                     Distance = selectedVenue.location.distance,
                     Latitude = selectedVenue.location.lat,
                     Longitude = selectedVenue.location.lng,
-                    VenueName = selectedVenue.name
-
+                    VenueName = selectedVenue.name,
+                    UserId = App.user.Id
                 };
 
-                using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
-                {
-                    conn.CreateTable<Post>();
-                    int rows = conn.Insert(post);
-                    if (rows > 0)
-                    { 
-                        DisplayAlert("Success", "Experience Successfully Inserted", "Ok");
-                        Navigation.PushAsync(new HomePage());
-                    }
-                    else
-                        DisplayAlert("Failed", "Experience Not Inserted!", "Ok");
-                }
+                #region Inserting to local Sqlite Db
+                //using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+                //{
+                //    conn.CreateTable<Post>();
+                //    int rows = conn.Insert(post);
+                //    if (rows > 0)
+                //    { 
+                //        DisplayAlert("Success", "Experience Successfully Inserted", "Ok");
+                //        Navigation.PushAsync(new HomePage());
+                //    }
+                //    else
+                //        DisplayAlert("Failed", "Experience Not Inserted!", "Ok");
+                //}
+                #endregion
+                await App.MobileService.GetTable<Post>().InsertAsync(post);
+                await DisplayAlert("Success", "Experience Successfully Inserted", "Ok");
             }
-            catch(NullReferenceException nre)
+            catch (NullReferenceException nre)
             {
-
+                await DisplayAlert("Failed", "Experience Not Inserted!", "Ok");
             }
             catch (Exception ex)
             {
-
+                string msg = ex.Message;
+                await DisplayAlert("Failed", "Experience Not Inserted!", "Ok");
             }
             
         }

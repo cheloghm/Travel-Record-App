@@ -35,7 +35,7 @@ namespace TravelRecordApp
             cts = new CancellationTokenSource();
             var location = await Geolocation.GetLocationAsync(request, cts.Token);
             loc = DependencyService.Get<ILocationUpdateService>();
-            loc.LocationChanged += (object sender, ILocationEvenArgs args) =>
+            loc.LocationChanged += async (object sender, ILocationEvenArgs args) =>
             {
                 Position p = new Position(args.Latitude, args.Longitude);
                 MapSpan mapSpan = MapSpan.FromCenterAndRadius(p, Distance.FromMeters(1000));
@@ -43,15 +43,21 @@ namespace TravelRecordApp
                 locationsMap.MoveToRegion(mapSpan);
                 Console.WriteLine($"Latitude: {args.Latitude}, Longitude: {args.Longitude}, Altitude: {location.Altitude}");
 
+                #region For reading from sql
                 //Using statment helps to close connection to database as soon as the block of code is run
-                using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+                /*using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
                 {
                     conn.CreateTable<Post>();
                     var posts = conn.Table<Post>().ToList();
 
                     //Method for displaying pins on map
                     DisplayInMap(posts);
-                }
+                }*/
+                #endregion
+
+                var posts = await App.MobileService.GetTable<Post>().Where(ps => ps.UserId == App.user.Id).ToListAsync();
+                DisplayInMap(posts);
+
             };
             loc.GetUserLocation();
         }
