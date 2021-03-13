@@ -47,7 +47,7 @@ namespace TravelRecordApp
             //        DisplayAlert("Failed", "Experience Not Updated!", "Ok");
             //}
             #endregion
-            await App.MobileService.GetTable<Post>().UpdateAsync(selectedPost);
+            Post.Update(selectedPost);
             await DisplayAlert("Success", "Experience Successfully Updated", "Ok");
             await Navigation.PushAsync(new HomePage());
         }
@@ -68,7 +68,7 @@ namespace TravelRecordApp
             //        DisplayAlert("Failed", "Experience Not Deleted!", "Ok");
             //}
             #endregion
-            await App.MobileService.GetTable<Post>().DeleteAsync(selectedPost);
+            Post.Delete(selectedPost);
             await DisplayAlert("Success", "Experience Successfully Deleted", "Ok");
             await Navigation.PushAsync(new HomePage());
         }

@@ -31,12 +31,19 @@ namespace TravelRecordApp
                     Password = passwordEntry.Text
                 };
 
-                await App.MobileService.GetTable<Users>().InsertAsync(user);
+                Users.Register(user);
 
+                //Log user in after registering
+                bool canLogin = await Users.Login(emailEntry.Text, passwordEntry.Text);
+
+                if (canLogin)
+                    await Navigation.PushAsync(new HomePage());
+                else
+                    await DisplayAlert("Error", "Try again", "Ok");
             }
             else
             {
-                DisplayAlert("Error", "Passwords don't match", "ok");
+                await DisplayAlert("Error", "Passwords don't match", "ok");
             }
         }
     }

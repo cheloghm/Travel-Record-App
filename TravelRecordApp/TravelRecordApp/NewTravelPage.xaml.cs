@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using TravelRecordApp.Logic;
 using TravelRecordApp.Model;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -36,7 +35,7 @@ namespace TravelRecordApp
 
             if (location != null)
             {
-                var venues = await VenueLogic.GetVenues(location.Latitude, location.Longitude);
+                var venues = await Venue.GetVenues(location.Latitude, location.Longitude);
                 venueListView.ItemsSource = venues;
             }
 
@@ -75,7 +74,7 @@ namespace TravelRecordApp
                 //        DisplayAlert("Failed", "Experience Not Inserted!", "Ok");
                 //}
                 #endregion
-                await App.MobileService.GetTable<Post>().InsertAsync(post);
+                Post.Insert(post);
                 await DisplayAlert("Success", "Experience Successfully Inserted", "Ok");
             }
             catch (NullReferenceException nre)

@@ -55,7 +55,7 @@ namespace TravelRecordApp
                 }*/
                 #endregion
 
-                var posts = await App.MobileService.GetTable<Post>().Where(ps => ps.UserId == App.user.Id).ToListAsync();
+                var posts = await Post.Read();
                 DisplayInMap(posts);
 
             };
