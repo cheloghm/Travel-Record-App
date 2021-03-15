@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravelRecordApp.RegisterPage">
-    <StackLayout VerticalOptions="Center"
+    <StackLayout x:Name="containerStacklayout" 
+                 VerticalOptions="Center"
                  Margin="30">
         <Image x:Name="iconImage" 
                Aspect="AspectFit"
@@ -12,19 +13,23 @@
         <Entry x:Name="emailEntry"
                Placeholder="Email address"
                Keyboard="Email"
+               Text="{Binding Email, Mode=TwoWay}"
                TextColor="{StaticResource blueColor}"/>
         <Entry x:Name="passwordEntry"
                Placeholder="Password"
                IsPassword="True"
+               Text="{Binding Password, Mode=TwoWay}"
                TextColor="{StaticResource blueColor}"/>
         <Entry x:Name="confirmpasswordEntry"
                Placeholder="Confirm Password"
+               Text="{Binding ConfirmPassword, Mode=TwoWay}"
                IsPassword="True"
                TextColor="{StaticResource blueColor}"/>
         <Button x:Name="registerButton"
                 Margin="0,50,0,0"
                 Text="Register"
-                Clicked="RegisterButton_Clicked"
+                Command="{Binding RegisterCommand}"
+                CommandParameter="{Binding User}"
                 Style="{StaticResource normalButton}"/>
     </StackLayout>
 </ContentPage>
