@@ -169,6 +169,19 @@ namespace TravelRecordApp.Model
             }
         }
 
+        private DateTimeOffset createdate;
+
+        public DateTimeOffset CreateDate
+        {
+            get { return createdate; }
+            set 
+            { 
+                createdate = value;
+                OnPropertyChanged("createdate");
+            }
+        }
+
+
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -208,7 +221,8 @@ namespace TravelRecordApp.Model
         {
             await App.MobileService.GetTable<Post>().UpdateAsync(post);
         }
-        public static async void Delete(Post post)
+        public static async         Task
+Delete(Post post)
         {
             await App.MobileService.GetTable<Post>().DeleteAsync(post);
         }
