@@ -1,4 +1,6 @@
 ﻿using Microsoft.WindowsAzure.MobileServices;
+using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
+using Microsoft.WindowsAzure.MobileServices.Sync;
 using System;
 using TravelRecordApp.Model;
 using Xamarin.Forms;
@@ -11,6 +13,8 @@ namespace TravelRecordApp
         public static string DatabaseLocation = string.Empty;
 
         public static MobileServiceClient MobileService = new MobileServiceClient("https://graytravelrecordapp.azurewebsites.net/");
+
+        public static IMobileServiceSyncTable<Post> postsTable;
 
         public static Users user = new Users();
         public App()
@@ -27,6 +31,13 @@ namespace TravelRecordApp
             MainPage = new NavigationPage(new MainPage());
 
             DatabaseLocation = databaseLocation;
+
+            var store = new MobileServiceSQLiteStore(databaseLocation);
+            store.DefineTable<Post>();
+
+            MobileService.SyncContext.InitializeAsync(store);
+
+            postsTable = MobileService.GetSyncTable<Post>();
         }
 
         protected override void OnStart()

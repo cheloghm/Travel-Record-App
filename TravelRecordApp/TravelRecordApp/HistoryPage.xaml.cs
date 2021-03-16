@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TravelRecordApp.Helpers;
 using TravelRecordApp.Model;
 using TravelRecordApp.ViewModel;
 using Xamarin.Forms;
@@ -22,7 +23,7 @@ namespace TravelRecordApp
             viewModel = new HistoryVM();
         }
 
-        protected  override void OnAppearing()
+        protected async override void OnAppearing()
         {
             base.OnAppearing();
 
@@ -36,15 +37,20 @@ namespace TravelRecordApp
             }*/
             #endregion
 
-            viewModel.updatePosts();
+            //await viewModel.UpdatePosts();
+            var posts = await Post.Read();
+            postListView.ItemsSource = posts;
+
+            await AzureAppServiceHelper.SyncAsync();
         }
 
-        private void postListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private async void postListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var selectedPost = postListView.SelectedItem as Post;
             if (selectedPost != null)
             {
-                Navigation.PushAsync(new PostDetailsPage(selectedPost));
+                await AzureAppServiceHelper.SyncAsync();
+                await Navigation.PushAsync(new PostDetailsPage(selectedPost));
             }
         }
     }

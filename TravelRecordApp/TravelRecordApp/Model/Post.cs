@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.WindowsAzure.MobileServices;
+using Newtonsoft.Json;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -187,12 +188,14 @@ namespace TravelRecordApp.Model
 
         public static async void Insert(Post post)
         {
-            await App.MobileService.GetTable<Post>().InsertAsync(post);
+            await App.postsTable.InsertAsync(post);
+            await App.MobileService.SyncContext.PushAsync();
         }
 
         public static async Task<List<Post>> Read()
         {
-            var posts = await App.MobileService.GetTable<Post>().Where(p => p.UserId == App.user.Id).ToListAsync();
+            var posts = await App.postsTable.Where(p => p.UserId == App.user.Id).ToListAsync();
+            await App.MobileService.SyncContext.PushAsync();
             return posts;
         }
 
@@ -217,14 +220,18 @@ namespace TravelRecordApp.Model
             return categoriesCount;
         }
 
-        public static async void Update(Post post)
+        public static async Task<bool> Update(Post post)
         {
-            await App.MobileService.GetTable<Post>().UpdateAsync(post);
+            await App.postsTable.UpdateAsync(post);
+            await App.MobileService.SyncContext.PushAsync();
+            return true;
         }
-        public static async         Task
-Delete(Post post)
+
+        public static async Task<bool> Delete(Post post)
         {
-            await App.MobileService.GetTable<Post>().DeleteAsync(post);
+            await App.postsTable.DeleteAsync(post);
+            await App.MobileService.SyncContext.PushAsync();
+            return true;
         }
 
         private void OnPropertyChanged(string propertyName)

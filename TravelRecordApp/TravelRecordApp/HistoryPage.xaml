@@ -16,7 +16,7 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Experience}"
-                          Detail="{Binding CreateDate, Converter={StaticResource converter}}"/>
+                          Detail="{Binding CreateDate, Converter={StaticResource converter}}"/>                
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

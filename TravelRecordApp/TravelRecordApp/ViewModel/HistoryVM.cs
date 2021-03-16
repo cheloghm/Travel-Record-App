@@ -35,17 +35,18 @@ namespace TravelRecordApp.ViewModel
             }
         }
 
-        public async void DeletePost(Post postToDelete)
-        {
-            await Post.Delete(postToDelete);
-        }
 
-        public async void updatePosts()
-        {
-            Posts.Clear();
-            var posts = await Post.Read();
-            foreach (var post in posts)
-                Posts.Add(post);
-        }
+        //FIX LATER SO EXECUTION GOES THROUGH HERE
+        //public static async void DeletePost(Post postToDelete)
+        //{
+        //    await Post.Delete(postToDelete);
+        //}
+
+        //public static async void UpdatePost(Post postToDelete)
+        //{
+        //    await Post.Update(postToDelete);
+        //}
+
+
     }
 }
